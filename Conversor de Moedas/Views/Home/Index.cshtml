@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Conversor";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Conversor de Moedas</h1>
+    <form action="/home/Resultado" method="post">
+        <select name="moeda" id="moeda" required>
+            <option value="">Selecione a Moeda</option>
+            <option value=1>real</option>
+            <option value=6>dolar</option>
+            <option value=7>euro</option>
+
+        </select>
+        <p> Para </p>
+        <select name="moeda1" id="moeda1" required>
+            <option value="">Selecione a Moeda</option>
+            <option value=1>real</option>
+            <option value=6>dolar</option>
+            <option value=7>euro</option>
+
+        </select>
+        <input type="submit" name="enviar" value="Enviar" />
+    </form>
+</div>
